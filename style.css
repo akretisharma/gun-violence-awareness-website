@@ -1,0 +1,193 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #F9FFFE; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #ED254E;
+  font-family: Impact;
+  padding: 3px;
+}
+
+h2{
+  font-family: Impact;
+  font-size: 28px
+}
+
+p {
+  font-family: monospace;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 50px
+}
+
+.tw {
+  margin-top: 125px;
+  margin-bottom: 15px;
+  font-size: 75px;
+  padding: 0;
+}
+
+.tw2 {
+  margin-bottom: 25px
+}
+/* STYLE IMAGES */
+img{
+  width: 45%;
+  height: auto;
+}
+
+/* STYLE NAV BAR */
+
+li {
+  display: inline;
+  font-family: monospace;
+}
+
+li a {
+  text-decoration: none;
+  color: #F9FFFE;
+  padding: 1em
+}
+
+li a:hover {
+  background-color: #556577;
+}
+
+ul {
+  background-color: #011936;
+}
+
+ul,li {
+  margin: 0px;
+  border: 0px;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  outline: 0;
+  vertical-align: center;
+}
+
+/* STYLE OVERLAY */
+
+#overlay{
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: #F9FFFE;
+  z-index:2;
+  opacity:0.95;
+  text-align: center;
+}
+
+/* STYLE BUTTON */
+
+button {
+  font-family: monospace;
+  font-style: normal;
+  background-color: #ED254E; 
+  color: #011936;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer
+}
+
+a {
+  text-decoration: none;
+  color: #011936;
+}
+
+button:hover {
+  background-color: #F9FFFE; 
+  border: 2px solid #ED254E;
+  border-radius: 4px;
+}
+
+/* STYLE HEADING */
+
+div.text {
+  background-color: #011936;
+  color: #ED254E;
+  font-family: fantasy;
+  top: 75px;
+  font-size: 100px;
+  display: table;
+  text-align: left;
+  animation: none;
+}
+
+/* STYLE FACT MAKER */
+
+/* STYLE COLUMNS */
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 65%;
+}
+
+.right {
+  width: 35%
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* STYLE HOVOR TEXT*/
+
+span:hover + div {
+  display: block;
+}
+
+.span {
+  display: inline-block;
+}
+
+.maptext {
+  background-color: #4C5B6B;
+  color: #F9FFFE;
+}
+
+.maps{
+  background-color: #4C5B6B;
+  padding: 20px;
+  display: none;
+}
+
+.hoverbar{
+  background-color: #F9FFFE
+}
+
+/* STYLE IMAGES 
+
+dimensions of map images: 754 by 400
+
+hue changes
+
+red: -22, 0, 0
+teal: -22, 0, -22
+white: 102, 0, 22
+
+*/
